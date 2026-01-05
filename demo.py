@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter as tk
 
 # Create main window
 root = Tk()
@@ -54,4 +54,5 @@ lbl_grade = Label(root, text="Grade:")
 lbl_grade.pack()
 
 # Run window
+
 root.mainloop()
