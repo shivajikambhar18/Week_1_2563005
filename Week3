@@ -1,0 +1,39 @@
+
+//1st file 
+public class MathOp {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int sub(int a, int b) {
+        return a - b;
+  public int mul (int a, int b) {
+        return a * b;
+  public int div(int a, int b) {
+        return a / b;
+public int mod(int a, int b) {
+        return a % b;
+  
+  
+    }
+}
+
+//2nd file
+public class Main {
+    public static void main(String[] args) {
+
+        MathOp m = new MathOp();
+
+        System.out.println("Addition = " + m.add(10, 5));
+        System.out.println("Subtraction = " + m.sub(10, 5));
+System.out.println("multiplication is= " + m.sub(10, 5));
+System.out.println("division= " + m.sub(10, 5));
+System.out.println("mod= " + m.sub(10, 5));
+    }
+}
+//output: Addition:15
+Substraction:5
+multiplication:50
+division:2.0
+mod:0.0
